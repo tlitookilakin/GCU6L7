@@ -1,0 +1,16 @@
+<h2>Hall Of Computing Fame!</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Year</th>
+            <th>Invention</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (person of people.complete; track $index) {
+            <tr famous-person [person]="person"></tr>
+        }
+    </tbody>
+</table>
