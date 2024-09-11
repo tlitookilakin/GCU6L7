@@ -1,8 +1,9 @@
+<h1>Devs &amp; Donuts!</h1>
+<nav class="row">
+  <button class="tab col-6" [class.active]="showDonuts" (click)="showDonuts = true">Donuts</button>
+  <button class="tab col-6" [class.active]="!showDonuts" (click)="showDonuts = false">Devs</button>
+</nav>
 <main class="container">
-  <nav class="row">
-    <button class="tab col-6" [class.active]="showDonuts" (click)="showDonuts = true">Donuts</button>
-    <button class="tab col-6" [class.active]="!showDonuts" (click)="showDonuts = false">Devs</button>
-  </nav>
   <div class="content">
     @if (showDonuts) {
       <app-donuts />

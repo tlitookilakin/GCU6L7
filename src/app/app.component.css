@@ -1,0 +1,27 @@
+main {
+    background-color: #fff;
+    max-width: 900px;
+    border: 2px solid #888;
+    padding: 1em;
+}
+h1 {
+    max-width: 900px;
+    margin:auto;
+    margin-bottom: .5em;
+}
+nav {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: -2px;
+}
+nav button {
+    background: none;
+    border: solid transparent;
+    border-width: 2px 2px 0px 2px;
+}
+
+nav button.active {
+    background-color: #fff;
+    border-color: #888;
+    border-radius: 5px 5px 0px 0px;
+}

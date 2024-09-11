@@ -1,0 +1,35 @@
+.card {
+    overflow: hidden;
+    margin-bottom: .5em;
+}
+
+.card-img-top {
+    position: relative;
+}
+
+.attribution {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #0006;
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.attribution:hover {
+    opacity: 1;
+}
+
+.attribution a {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    font-size: .6em;
+    font-style: italic;
+}
